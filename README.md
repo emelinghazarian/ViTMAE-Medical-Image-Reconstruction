@@ -9,7 +9,8 @@ This project focuses on familiarizing with Masked Autoencoders (ViTMAE) and thei
 4. **Performance Evaluation**: Evaluates the reconstruction capabilities of both the pre-trained and fine-tuned ViTMAE models on test images with 75% masking.
 
 ## Dataset
-The **ROCOv2** dataset is used for training and testing purposes. The dataset consists of medical images in two parts: Train and Test. 
+The **ROCOv2** dataset is a multimedia dataset consisting of radiology images and related medical concepts and titles extracted from the open access subset of PubMed.
+Concepts for clinical diagnosis, anatomy (X-ray) and direction (X-ray) manually compiled and also it has been evaluated by a radiologist. 
 - **ROCOv2 Dataset**: [https://example.com/roco-dataset](https://zenodo.org/records/10821435)
 
 ## Pre-Trained Model
